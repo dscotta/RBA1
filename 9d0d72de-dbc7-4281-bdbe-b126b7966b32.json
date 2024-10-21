@@ -1,0 +1,28 @@
+[ {
+  "defaultTab" : "nodes",
+  "description" : "",
+  "executionEnabled" : true,
+  "id" : "9d0d72de-dbc7-4281-bdbe-b126b7966b32",
+  "loglevel" : "INFO",
+  "name" : "job2",
+  "nodeFilterEditable" : false,
+  "plugins" : {
+    "ExecutionLifecycle" : { }
+  },
+  "runnerSelector" : {
+    "runnerFilterMode" : "LOCAL",
+    "runnerFilterType" : "LOCAL_RUNNER"
+  },
+  "scheduleEnabled" : true,
+  "schedules" : [ ],
+  "sequence" : {
+    "commands" : [ {
+      "exec" : "hostname"
+    }, {
+      "exec" : "hostname"
+    } ],
+    "keepgoing" : false,
+    "strategy" : "node-first"
+  },
+  "uuid" : "9d0d72de-dbc7-4281-bdbe-b126b7966b32"
+} ]
